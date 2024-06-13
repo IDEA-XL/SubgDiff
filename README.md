@@ -1,7 +1,14 @@
 # SUBGDIFF: A Subgraph Diffusion Model to Improve Molecular Representation Learning
 
-The official implementation of SUBGDIFF: A Subgraph Diffusion Model to Improve Molecular Representation Learning.
-
+The official implementation of [SUBGDIFF: A Subgraph Diffusion Model to Improve Molecular Representation Learning](https://arxiv.org/abs/2405.05665).
+```
+@article{zhang2024subgdiff,
+  title={SubGDiff: A Subgraph Diffusion Model to Improve Molecular Representation Learning},
+  author={Zhang, Jiying and Liu, Zijing and Wang, Yu, Feng, Bin and Li, Yu},
+  journal={arXiv preprint arXiv:2405.05665},
+  year={2024}
+}
+```
 
 
 ## 1. Visualization
