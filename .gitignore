@@ -1,4 +1,2 @@
-checkpoints/*
 *.pyc
 logs
-data/
