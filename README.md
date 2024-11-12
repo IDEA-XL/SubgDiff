@@ -9,24 +9,11 @@ The official implementation of the NeurIPS 2024 paper [SubgDiff: A Subgraph Diff
   year={2024}
 }
 ```
+<div align="center">
+<img src="./assets/subgdiff_framework.jpg" alt="framework" width="98%">
+</div>
 
 
-## 1. Visualization
-### 1.1 Sampling trajectory of SubGDiff (ours)
-The video suggests that the denoising network will only denoise the atomic coordinates from a subgraph at each timestep during the sampling process.
-
-<img src="./assets/CCCCC[C@@H](C)CO_traj.gif" alt="500steps" width="600">
-
-### 1.2 Sampling trajectory of GeoDiff
-
-The video indicates that the denoising network will denoise all atomic coordinates  at each timestep during the sampling process.
-
-<img src="./assets/Geodiff500-CCCCC[C@@H](C)CO_traj.gif" alt="500steps" width="600">
-
-### 1.3 Visualization of final sampling results
-The following figures come from the final step of the sampling trajectory above (SubGDiff and GeoDiff).   From the figures, we can see that our SubGDiff can generate a more similar conformation to the ground truth.
-
-<img src="./assets/case_study.png" width="600">
 
 
 
@@ -135,6 +122,24 @@ Run `visualization.ipynb`.
 ## Subgraph diffusion process
 
 Please see the `Class SubgraphNoiseTransform` in `utils/transforms.py`
+
+
+## Visualization
+### Sampling trajectory of SubGDiff (ours)
+The video suggests that the denoising network will only denoise the atomic coordinates from a subgraph at each timestep during the sampling process.
+
+<img src="./assets/CCCCC[C@@H](C)CO_traj.gif" alt="500steps" width="600">
+
+### Sampling trajectory of GeoDiff
+
+The video indicates that the denoising network will denoise all atomic coordinates  at each timestep during the sampling process.
+
+<img src="./assets/Geodiff500-CCCCC[C@@H](C)CO_traj.gif" alt="500steps" width="600">
+
+### Visualization of final sampling results
+The following figures come from the final step of the sampling trajectory above (SubGDiff and GeoDiff).   From the figures, we can see that our SubGDiff can generate a more similar conformation to the ground truth.
+
+<img src="./assets/case_study.png" width="600">
 
 
 
