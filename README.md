@@ -1,14 +1,7 @@
 # SUBGDIFF: A Subgraph Diffusion Model to Improve Molecular Representation Learning
 
 The official implementation of the NeurIPS 2024 paper [SubgDiff: A Subgraph Diffusion Model to Improve Molecular Representation Learning](https://arxiv.org/abs/2405.05665).
-```
-@inproceedings{zhang2024subgdiff,
-  title={SubgDiff: A Subgraph Diffusion Model to Improve Molecular Representation Learning},
-  author={Zhang, Jiying and Liu, Zijing and Wang, Yu, Feng, Bin and Li, Yu},
-  booktitle={Advances in Neural Information Processing Systems},
-  year={2024}
-}
-```
+
 <div align="center">
 <img src="./assets/subgdiff_framework.jpg" alt="framework" width="98%">
 </div>
@@ -141,6 +134,15 @@ The following figures come from the final step of the sampling trajectory above 
 
 <img src="./assets/case_study.png" width="600">
 
+## Citation
+```
+@inproceedings{zhang2024subgdiff,
+  title={SubgDiff: A Subgraph Diffusion Model to Improve Molecular Representation Learning},
+  author={Zhang, Jiying and Liu, Zijing and Wang, Yu, Feng, Bin and Li, Yu},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2024}
+}
+```
 
 
 ## Acknowledgement
